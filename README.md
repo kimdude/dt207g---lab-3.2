@@ -2,7 +2,7 @@
 Repot innehåller källkod för ett REST API. Det hanterar olika arbetslivserfarenheter och stödjer CRUD.
 
 ## Länk
-Grundlänken till API:et är [https://dt207g-lab-3-2.onrender.com/experience] (https://dt207g-lab-3-2.onrender.com/experience).
+Grundlänken till API:et är https://dt207g-lab-3-2.onrender.com/experience.
 
 ## Användning
 API:et tar emot GET, POST, PUT och DELETE metoder.
