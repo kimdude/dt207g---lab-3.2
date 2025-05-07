@@ -44,6 +44,11 @@ const expSchema = new mongoose.Schema({
 const WorkExp = mongoose.model("Workexperience", expSchema);
 
 //Routes
+//Testing server 
+app.get("/health", (req, res) =>  {
+    res.status(200).send('Server is healthy');
+});
+
 app.get("/experience", async(req, res) => {
     try {
         let result = await WorkExp.find({});
